@@ -284,6 +284,12 @@ char* DecompileConstant(const Proto* f, int i) {
 		sprintf(ret, LUA_INTEGER_FMT, ivalue(o));
 		return ret;
 	}
+	case LUA_TVEC3:
+	{
+		char* ret = (char*)calloc(128, sizeof(char));
+		sprintf(ret, LUA_VEC3_FMT, vec3value(o)[0], vec3value(o)[1], vec3value(o)[2]);
+		return ret;
+	}
 	case LUA_TSHRSTR:
 	case LUA_TLNGSTR:
 		return DecompileString(o);
