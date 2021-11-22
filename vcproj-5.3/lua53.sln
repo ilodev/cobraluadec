@@ -1,38 +1,21 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C++ Express 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luadll", "luadll.vcproj", "{7699D069-F643-4C67-8D29-007F26440182}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luadll", "luadll.vcxproj", "{7699D069-F643-4C67-8D29-007F26440182}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua", "lua.vcproj", "{F7BFA9BD-73C2-439F-8C62-F75EEFA3FE38}"
-	ProjectSection(ProjectDependencies) = postProject
-		{7699D069-F643-4C67-8D29-007F26440182} = {7699D069-F643-4C67-8D29-007F26440182}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua", "lua.vcxproj", "{F7BFA9BD-73C2-439F-8C62-F75EEFA3FE38}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lualib", "lualib.vcproj", "{4D15EDB6-9238-4F8D-8B8C-8729AA1FEA95}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lualib", "lualib.vcxproj", "{4D15EDB6-9238-4F8D-8B8C-8729AA1FEA95}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luac", "luac.vcproj", "{55336A38-AC12-462B-AE28-FEA75CF1EA65}"
-	ProjectSection(ProjectDependencies) = postProject
-		{4D15EDB6-9238-4F8D-8B8C-8729AA1FEA95} = {4D15EDB6-9238-4F8D-8B8C-8729AA1FEA95}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luac", "luac.vcxproj", "{55336A38-AC12-462B-AE28-FEA75CF1EA65}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luadec", "luadec.vcproj", "{A0E2C10F-E40D-4484-AAA5-C390C0516282}"
-	ProjectSection(ProjectDependencies) = postProject
-		{4D15EDB6-9238-4F8D-8B8C-8729AA1FEA95} = {4D15EDB6-9238-4F8D-8B8C-8729AA1FEA95}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luadec", "luadec.vcxproj", "{A0E2C10F-E40D-4484-AAA5-C390C0516282}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luareplace", "luareplace.vcproj", "{1A7F9563-5217-4B61-A23F-5DAD34C9E9FC}"
-	ProjectSection(ProjectDependencies) = postProject
-		{4D15EDB6-9238-4F8D-8B8C-8729AA1FEA95} = {4D15EDB6-9238-4F8D-8B8C-8729AA1FEA95}
-		{A0E2C10F-E40D-4484-AAA5-C390C0516282} = {A0E2C10F-E40D-4484-AAA5-C390C0516282}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luareplace", "luareplace.vcxproj", "{1A7F9563-5217-4B61-A23F-5DAD34C9E9FC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luaopswap", "luaopswap.vcproj", "{DEC76AB8-8850-49D4-88EA-A17A3D5B85A8}"
-	ProjectSection(ProjectDependencies) = postProject
-		{55336A38-AC12-462B-AE28-FEA75CF1EA65} = {55336A38-AC12-462B-AE28-FEA75CF1EA65}
-		{4D15EDB6-9238-4F8D-8B8C-8729AA1FEA95} = {4D15EDB6-9238-4F8D-8B8C-8729AA1FEA95}
-		{F7BFA9BD-73C2-439F-8C62-F75EEFA3FE38} = {F7BFA9BD-73C2-439F-8C62-F75EEFA3FE38}
-		{A0E2C10F-E40D-4484-AAA5-C390C0516282} = {A0E2C10F-E40D-4484-AAA5-C390C0516282}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luaopswap", "luaopswap.vcxproj", "{DEC76AB8-8850-49D4-88EA-A17A3D5B85A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,5 +54,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5998DB1C-6DC6-48EC-95C8-5AE6B4EC2EB5}
 	EndGlobalSection
 EndGlobal

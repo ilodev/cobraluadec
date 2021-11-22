@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: The property "IntermediateOutputPath" is being set to a value for the first time, but it was already consumed at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: The property "DebugType" is being set to a value for the first time, but it was already consumed at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(372,5): warning MSB4211: The property "CleanFile" is being set to a value for the first time, but it was already consumed at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+  generating srcversion.h using "git log -n 1 --format=format:%%h"
+  895d923
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  structs.c
+  StringBuffer.c
+  statement.c
+  proto.c
+  macro-array.c
+  luadec.c
+  guess.c
+  expression.c
+  disassemble.c
+  decompile.c
+C:\Users\ilo\Documents\GitHub\cobraluadec\luadec\decompile.c(1702,18): warning C4477: 'fprintf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'LoopItem *'
+C:\Users\ilo\Documents\GitHub\cobraluadec\luadec\decompile.c(1702,18): warning C4477: 'fprintf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 8 has type 'AstStatement *'
+  Generating Code...
+decompile.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  luadec.vcxproj -> C:\Users\ilo\Documents\GitHub\cobraluadec\vcproj-5.3\Debug\bin\luadec.exe
